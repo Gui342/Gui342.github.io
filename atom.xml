@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-08-03T12:57:20.964Z</updated>
+  <updated>2020-08-03T13:00:57.164Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,61 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>UnityUGUI认知</title>
+    <link href="http://yoursite.com/2020/01/01/ugui-0/"/>
+    <id>http://yoursite.com/2020/01/01/ugui-0/</id>
+    <published>2020-01-01T10:00:00.000Z</published>
+    <updated>2020-08-03T13:00:57.164Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h2&gt;&lt;p&gt;记录一些自己学习和使用UGUI的笔记和心得。&lt;/p&gt;
+&lt;h4 id=&quot;UGUI介绍&quot;&gt;&lt;a href=&quot;#UGUI介绍&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="UGUI" scheme="http://yoursite.com/tags/UGUI/"/>
+    
+      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>UGUI之Canvas学习</title>
+    <link href="http://yoursite.com/2020/01/01/ugui-1-canvas/"/>
+    <id>http://yoursite.com/2020/01/01/ugui-1-canvas/</id>
+    <published>2020-01-01T10:00:00.000Z</published>
+    <updated>2020-08-03T13:08:14.476Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;h3 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="UGUI" scheme="http://yoursite.com/tags/UGUI/"/>
+    
+      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
+    
+  </entry>
   
   <entry>
     <title>常用的设计模式之单例模式</title>
@@ -65,64 +120,9 @@
     
     
     
+      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
+    
       <category term="C Sharp" scheme="http://yoursite.com/tags/C-Sharp/"/>
-    
-      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>UnityUGUI认知</title>
-    <link href="http://yoursite.com/2020/01/01/ugui-0/"/>
-    <id>http://yoursite.com/2020/01/01/ugui-0/</id>
-    <published>2020-01-01T10:00:00.000Z</published>
-    <updated>2020-08-03T13:00:57.164Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h2&gt;&lt;p&gt;记录一些自己学习和使用UGUI的笔记和心得。&lt;/p&gt;
-&lt;h4 id=&quot;UGUI介绍&quot;&gt;&lt;a href=&quot;#UGUI介绍&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
-    
-      <category term="UGUI" scheme="http://yoursite.com/tags/UGUI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>UGUI之Canvas学习</title>
-    <link href="http://yoursite.com/2020/01/01/ugui-1-canvas/"/>
-    <id>http://yoursite.com/2020/01/01/ugui-1-canvas/</id>
-    <published>2020-01-01T10:00:00.000Z</published>
-    <updated>2020-08-03T13:08:14.476Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;h3 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
-    
-      <category term="UGUI" scheme="http://yoursite.com/tags/UGUI/"/>
     
   </entry>
   
@@ -147,9 +147,9 @@
     
     
     
-      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
-    
       <category term="UGUI" scheme="http://yoursite.com/tags/UGUI/"/>
+    
+      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
     
   </entry>
   
@@ -174,9 +174,9 @@
     
     
     
-      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
-    
       <category term="UGUI" scheme="http://yoursite.com/tags/UGUI/"/>
+    
+      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
     
   </entry>
   
@@ -201,9 +201,9 @@
     
     
     
-      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
-    
       <category term="UGUI" scheme="http://yoursite.com/tags/UGUI/"/>
+    
+      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
     
   </entry>
   
@@ -228,36 +228,9 @@
     
     
     
-      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
-    
       <category term="UGUI" scheme="http://yoursite.com/tags/UGUI/"/>
     
-  </entry>
-  
-  <entry>
-    <title>UGUI之Text学习</title>
-    <link href="http://yoursite.com/2020/01/01/ugui-2-text/"/>
-    <id>http://yoursite.com/2020/01/01/ugui-2-text/</id>
-    <published>2020-01-01T10:00:00.000Z</published>
-    <updated>2020-08-03T13:10:13.988Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;h3 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
       <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
-    
-      <category term="UGUI" scheme="http://yoursite.com/tags/UGUI/"/>
     
   </entry>
   
@@ -282,18 +255,18 @@
     
     
     
-      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
-    
       <category term="UGUI" scheme="http://yoursite.com/tags/UGUI/"/>
+    
+      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
     
   </entry>
   
   <entry>
-    <title>UGUI之Raw Image学习</title>
-    <link href="http://yoursite.com/2020/01/01/ugui-4-raw-image/"/>
-    <id>http://yoursite.com/2020/01/01/ugui-4-raw-image/</id>
+    <title>UGUI之Text学习</title>
+    <link href="http://yoursite.com/2020/01/01/ugui-2-text/"/>
+    <id>http://yoursite.com/2020/01/01/ugui-2-text/</id>
     <published>2020-01-01T10:00:00.000Z</published>
-    <updated>2020-08-03T13:10:49.340Z</updated>
+    <updated>2020-08-03T13:10:13.988Z</updated>
     
     <summary type="html">
     
@@ -309,63 +282,9 @@
     
     
     
-      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
-    
       <category term="UGUI" scheme="http://yoursite.com/tags/UGUI/"/>
     
-  </entry>
-  
-  <entry>
-    <title>UGUI之Slider学习</title>
-    <link href="http://yoursite.com/2020/01/01/ugui-7-slider/"/>
-    <id>http://yoursite.com/2020/01/01/ugui-7-slider/</id>
-    <published>2020-01-01T10:00:00.000Z</published>
-    <updated>2020-08-03T13:21:53.931Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;h3 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
       <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
-    
-      <category term="UGUI" scheme="http://yoursite.com/tags/UGUI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>UGUI之Toggle学习</title>
-    <link href="http://yoursite.com/2020/01/01/ugui-6-toggle/"/>
-    <id>http://yoursite.com/2020/01/01/ugui-6-toggle/</id>
-    <published>2020-01-01T10:00:00.000Z</published>
-    <updated>2020-08-03T13:21:44.858Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;h3 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
-    
-      <category term="UGUI" scheme="http://yoursite.com/tags/UGUI/"/>
     
   </entry>
   
@@ -390,9 +309,90 @@
     
     
     
+      <category term="UGUI" scheme="http://yoursite.com/tags/UGUI/"/>
+    
       <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
     
+  </entry>
+  
+  <entry>
+    <title>UGUI之Raw Image学习</title>
+    <link href="http://yoursite.com/2020/01/01/ugui-4-raw-image/"/>
+    <id>http://yoursite.com/2020/01/01/ugui-4-raw-image/</id>
+    <published>2020-01-01T10:00:00.000Z</published>
+    <updated>2020-08-03T13:10:49.340Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;h3 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
       <category term="UGUI" scheme="http://yoursite.com/tags/UGUI/"/>
+    
+      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>UGUI之Toggle学习</title>
+    <link href="http://yoursite.com/2020/01/01/ugui-6-toggle/"/>
+    <id>http://yoursite.com/2020/01/01/ugui-6-toggle/</id>
+    <published>2020-01-01T10:00:00.000Z</published>
+    <updated>2020-08-03T13:21:44.858Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;h3 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="UGUI" scheme="http://yoursite.com/tags/UGUI/"/>
+    
+      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>UGUI之Slider学习</title>
+    <link href="http://yoursite.com/2020/01/01/ugui-7-slider/"/>
+    <id>http://yoursite.com/2020/01/01/ugui-7-slider/</id>
+    <published>2020-01-01T10:00:00.000Z</published>
+    <updated>2020-08-03T13:21:53.931Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;h3 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="UGUI" scheme="http://yoursite.com/tags/UGUI/"/>
+    
+      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
     
   </entry>
   
@@ -417,9 +417,9 @@
     
     
     
-      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
-    
       <category term="UGUI" scheme="http://yoursite.com/tags/UGUI/"/>
+    
+      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
     
   </entry>
   
@@ -444,9 +444,9 @@
     
     
     
-      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
-    
       <category term="UGUI" scheme="http://yoursite.com/tags/UGUI/"/>
+    
+      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
     
   </entry>
   

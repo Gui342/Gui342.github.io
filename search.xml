@@ -4,6 +4,48 @@
   
     
     <entry>
+      <title>UnityUGUI认知</title>
+      <link href="/2020/01/01/ugui-0/"/>
+      <url>/2020/01/01/ugui-0/</url>
+      
+        <content type="html"><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>记录一些自己学习和使用UGUI的笔记和心得。</p><h4 id="UGUI介绍"><a href="#UGUI介绍" class="headerlink" title="UGUI介绍"></a>UGUI介绍</h4><p>早的时候Unity是没有自己的UI系统的，对于UI的搭建和功能实现是使用别人开发的插件来进行实现的，如NGUI。随着Unity的发展和进步，Unity官方推出了自己的UI系统，也就是UGUI，UGUI集成到了Unity编辑器中供用户使用。</p><h4 id="UGUI学习"><a href="#UGUI学习" class="headerlink" title="UGUI学习"></a>UGUI学习</h4><p>UGUI组件学习:<br>    1.<a href="www.fgui.club">Canvas</a><br>    2.<a href="www.fgui.club">Text</a><br>    3.<a href="www.fgui.club">Image</a><br>    4.<a href="www.fgui.club">Raw Image</a><br>    5.<a href="www.fgui.club">Button</a><br>    6.<a href="www.fgui.club">Toggle</a><br>    7.<a href="www.fgui.club">Slider</a><br>    8.<a href="www.fgui.club">Scrollbar</a><br>    9.<a href="www.fgui.club">Dropdown</a><br>    10.<a href="www.fgui.club">Input Field</a><br>    11.<a href="www.fgui.club">Panel</a><br>    12.<a href="www.fgui.club">Scroll View</a><br>    13.<a href="www.fgui.club">Event System</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> UGUI </tag>
+            
+            <tag> Unity </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>UGUI之Canvas学习</title>
+      <link href="/2020/01/01/ugui-1-canvas/"/>
+      <url>/2020/01/01/ugui-1-canvas/</url>
+      
+        <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> UGUI </tag>
+            
+            <tag> Unity </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>常用的设计模式之单例模式</title>
       <link href="/2020/01/01/singleton/"/>
       <url>/2020/01/01/singleton/</url>
@@ -35,51 +77,9 @@
       
         <tags>
             
+            <tag> Unity </tag>
+            
             <tag> C Sharp </tag>
-            
-            <tag> Unity </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>UnityUGUI认知</title>
-      <link href="/2020/01/01/ugui-0/"/>
-      <url>/2020/01/01/ugui-0/</url>
-      
-        <content type="html"><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>记录一些自己学习和使用UGUI的笔记和心得。</p><h4 id="UGUI介绍"><a href="#UGUI介绍" class="headerlink" title="UGUI介绍"></a>UGUI介绍</h4><p>早的时候Unity是没有自己的UI系统的，对于UI的搭建和功能实现是使用别人开发的插件来进行实现的，如NGUI。随着Unity的发展和进步，Unity官方推出了自己的UI系统，也就是UGUI，UGUI集成到了Unity编辑器中供用户使用。</p><h4 id="UGUI学习"><a href="#UGUI学习" class="headerlink" title="UGUI学习"></a>UGUI学习</h4><p>UGUI组件学习:<br>    1.<a href="www.fgui.club">Canvas</a><br>    2.<a href="www.fgui.club">Text</a><br>    3.<a href="www.fgui.club">Image</a><br>    4.<a href="www.fgui.club">Raw Image</a><br>    5.<a href="www.fgui.club">Button</a><br>    6.<a href="www.fgui.club">Toggle</a><br>    7.<a href="www.fgui.club">Slider</a><br>    8.<a href="www.fgui.club">Scrollbar</a><br>    9.<a href="www.fgui.club">Dropdown</a><br>    10.<a href="www.fgui.club">Input Field</a><br>    11.<a href="www.fgui.club">Panel</a><br>    12.<a href="www.fgui.club">Scroll View</a><br>    13.<a href="www.fgui.club">Event System</a></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Unity </tag>
-            
-            <tag> UGUI </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>UGUI之Canvas学习</title>
-      <link href="/2020/01/01/ugui-1-canvas/"/>
-      <url>/2020/01/01/ugui-1-canvas/</url>
-      
-        <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Unity </tag>
-            
-            <tag> UGUI </tag>
             
         </tags>
       
@@ -98,9 +98,9 @@
       
         <tags>
             
-            <tag> Unity </tag>
-            
             <tag> UGUI </tag>
+            
+            <tag> Unity </tag>
             
         </tags>
       
@@ -119,9 +119,9 @@
       
         <tags>
             
-            <tag> Unity </tag>
-            
             <tag> UGUI </tag>
+            
+            <tag> Unity </tag>
             
         </tags>
       
@@ -140,9 +140,9 @@
       
         <tags>
             
-            <tag> Unity </tag>
-            
             <tag> UGUI </tag>
+            
+            <tag> Unity </tag>
             
         </tags>
       
@@ -161,30 +161,9 @@
       
         <tags>
             
-            <tag> Unity </tag>
-            
             <tag> UGUI </tag>
             
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>UGUI之Text学习</title>
-      <link href="/2020/01/01/ugui-2-text/"/>
-      <url>/2020/01/01/ugui-2-text/</url>
-      
-        <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3>]]></content>
-      
-      
-      
-        <tags>
-            
             <tag> Unity </tag>
-            
-            <tag> UGUI </tag>
             
         </tags>
       
@@ -203,9 +182,9 @@
       
         <tags>
             
-            <tag> Unity </tag>
-            
             <tag> UGUI </tag>
+            
+            <tag> Unity </tag>
             
         </tags>
       
@@ -214,9 +193,9 @@
     
     
     <entry>
-      <title>UGUI之Raw Image学习</title>
-      <link href="/2020/01/01/ugui-4-raw-image/"/>
-      <url>/2020/01/01/ugui-4-raw-image/</url>
+      <title>UGUI之Text学习</title>
+      <link href="/2020/01/01/ugui-2-text/"/>
+      <url>/2020/01/01/ugui-2-text/</url>
       
         <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3>]]></content>
       
@@ -224,51 +203,9 @@
       
         <tags>
             
-            <tag> Unity </tag>
-            
             <tag> UGUI </tag>
             
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>UGUI之Slider学习</title>
-      <link href="/2020/01/01/ugui-7-slider/"/>
-      <url>/2020/01/01/ugui-7-slider/</url>
-      
-        <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3>]]></content>
-      
-      
-      
-        <tags>
-            
             <tag> Unity </tag>
-            
-            <tag> UGUI </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>UGUI之Toggle学习</title>
-      <link href="/2020/01/01/ugui-6-toggle/"/>
-      <url>/2020/01/01/ugui-6-toggle/</url>
-      
-        <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Unity </tag>
-            
-            <tag> UGUI </tag>
             
         </tags>
       
@@ -287,9 +224,72 @@
       
         <tags>
             
+            <tag> UGUI </tag>
+            
             <tag> Unity </tag>
             
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>UGUI之Raw Image学习</title>
+      <link href="/2020/01/01/ugui-4-raw-image/"/>
+      <url>/2020/01/01/ugui-4-raw-image/</url>
+      
+        <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3>]]></content>
+      
+      
+      
+        <tags>
+            
             <tag> UGUI </tag>
+            
+            <tag> Unity </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>UGUI之Toggle学习</title>
+      <link href="/2020/01/01/ugui-6-toggle/"/>
+      <url>/2020/01/01/ugui-6-toggle/</url>
+      
+        <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> UGUI </tag>
+            
+            <tag> Unity </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>UGUI之Slider学习</title>
+      <link href="/2020/01/01/ugui-7-slider/"/>
+      <url>/2020/01/01/ugui-7-slider/</url>
+      
+        <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> UGUI </tag>
+            
+            <tag> Unity </tag>
             
         </tags>
       
@@ -308,9 +308,9 @@
       
         <tags>
             
-            <tag> Unity </tag>
-            
             <tag> UGUI </tag>
+            
+            <tag> Unity </tag>
             
         </tags>
       
@@ -329,9 +329,9 @@
       
         <tags>
             
-            <tag> Unity </tag>
-            
             <tag> UGUI </tag>
+            
+            <tag> Unity </tag>
             
         </tags>
       
