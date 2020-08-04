@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>常用的设计模式之单例模式</title>
+      <link href="/2020/01/01/singleton/"/>
+      <url>/2020/01/01/singleton/</url>
+      
+        <content type="html"><![CDATA[<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>最近在学习设计模式，这一篇文章主要记录我在查看了有关于单例模式(Singleton)的书籍、网上资料和别人博客等资料后我自己的见解和一些学习笔记，为了以后或许遗忘了的时候，看到此纪录后能快速理解和回忆起来，毕竟看自己写的总比看别人写的理解的要快的多，也是为了写一篇文章来加深自己对Singleton的理解，以便于更加深入。</p><h3 id="单例模式的概述"><a href="#单例模式的概述" class="headerlink" title="单例模式的概述"></a>单例模式的概述</h3><p>单例模式是一种设计模式，很常用的一种设计模式。顾名思义，“ 单例 ”就是一个类中只有一个实例，“ 模式 ”按我自己的理解就是一种实现方法，所以单例模式就是保证一个类中只有一个实例的实现方法。<br>官方对单例模式的定义为：“确保一个类只有一个实例，并提供一个全局访问点”。</p><h3 id="单例模式的实现"><a href="#单例模式的实现" class="headerlink" title="单例模式的实现"></a>单例模式的实现</h3><p>根据单例模式的定义来实现，（1）确保一个类只有一个实例。（2）提供一个全局访问的点。</p><figure class="highlight csharp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">private</span> <span class="keyword">class</span> <span class="title">Singleton</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="comment">//定义静态私有变量来记录Singletond唯一实例</span></span><br><span class="line"><span class="keyword">private</span> <span class="keyword">static</span> Singleton _instance;</span><br><span class="line"><span class="comment">//私有构造函数</span></span><br><span class="line"><span class="function"><span class="keyword">private</span> <span class="title">Singleton</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//定义一个公有的方法来提供唯一一个全局访问点</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Singleton <span class="title">Instance</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="keyword">if</span>(_instance==<span class="literal">null</span>)</span><br><span class="line">&#123;</span><br><span class="line"><span class="comment">//如果为空就new一个</span></span><br><span class="line">_instance = <span class="keyword">new</span> Singleton();</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> _instance;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Design Mode </tag>
+            
+            <tag> C Sharp </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Unity异步加载进度条实现</title>
+      <link href="/2020/01/01/loading/"/>
+      <url>/2020/01/01/loading/</url>
+      
+        <content type="html"><![CDATA[<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>记录一下学习的笔记和心得。</p><h4 id="具体实现"><a href="#具体实现" class="headerlink" title="具体实现"></a>具体实现</h4><figure class="highlight csharp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">private</span> <span class="keyword">class</span> <span class="title">Loading</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">Start</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">private</span> IEnumerator <span class="title">RunLoading</span>(<span class="params"><span class="keyword">string</span> scenename</span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">AsyncOperation operation = SceneManager.LoadSceneAsync(scenename);</span><br><span class="line"><span class="comment">//禁止跳转场景</span></span><br><span class="line">operation.allowSceneActivation = <span class="literal">false</span>;</span><br><span class="line"><span class="comment">//当设置为禁止跳转场景，operation.progress的数值只能到达0.9，</span></span><br><span class="line">While(operation.progress&lt;<span class="number">0.9f</span>)</span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> C Sharp </tag>
+            
+            <tag> Unity </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>UnityUGUI认知</title>
+      <link href="/2020/01/01/ugui-0/"/>
+      <url>/2020/01/01/ugui-0/</url>
+      
+        <content type="html"><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>记录一些自己学习和使用UGUI的笔记和心得。</p><h4 id="UGUI介绍"><a href="#UGUI介绍" class="headerlink" title="UGUI介绍"></a>UGUI介绍</h4><p>早的时候Unity是没有自己的UI系统的，对于UI的搭建和功能实现是使用别人开发的插件来进行实现的，如NGUI。随着Unity的发展和进步，Unity官方推出了自己的UI系统，也就是UGUI，UGUI集成到了Unity编辑器中供用户使用。</p><h4 id="UGUI学习"><a href="#UGUI学习" class="headerlink" title="UGUI学习"></a>UGUI学习</h4><p>UGUI组件学习:<br>    1.<a href="www.fgui.club">Canvas</a><br>    2.<a href="www.fgui.club">Text</a><br>    3.<a href="www.fgui.club">Image</a><br>    4.<a href="www.fgui.club">Raw Image</a><br>    5.<a href="www.fgui.club">Button</a><br>    6.<a href="www.fgui.club">Toggle</a><br>    7.<a href="www.fgui.club">Slider</a><br>    8.<a href="www.fgui.club">Scrollbar</a><br>    9.<a href="www.fgui.club">Dropdown</a><br>    10.<a href="www.fgui.club">Input Field</a><br>    11.<a href="www.fgui.club">Panel</a><br>    12.<a href="www.fgui.club">Scroll View</a><br>    13.<a href="www.fgui.club">Event System</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Unity </tag>
+            
+            <tag> UGUI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>UGUI之Canvas学习</title>
+      <link href="/2020/01/01/ugui-1-canvas/"/>
+      <url>/2020/01/01/ugui-1-canvas/</url>
+      
+        <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Unity </tag>
+            
+            <tag> UGUI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>UGUI之Input Field学习</title>
+      <link href="/2020/01/01/ugui-10-input-field/"/>
+      <url>/2020/01/01/ugui-10-input-field/</url>
+      
+        <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Unity </tag>
+            
+            <tag> UGUI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>UGUI之Panel学习</title>
+      <link href="/2020/01/01/ugui-11-panel/"/>
+      <url>/2020/01/01/ugui-11-panel/</url>
+      
+        <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Unity </tag>
+            
+            <tag> UGUI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>UGUI之Scroll View学习</title>
+      <link href="/2020/01/01/ugui-12-scroll-view/"/>
+      <url>/2020/01/01/ugui-12-scroll-view/</url>
+      
+        <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Unity </tag>
+            
+            <tag> UGUI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>UGUI之Event System学习</title>
+      <link href="/2020/01/01/ugui-13-event-system/"/>
+      <url>/2020/01/01/ugui-13-event-system/</url>
+      
+        <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Unity </tag>
+            
+            <tag> UGUI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>UGUI之Text学习</title>
+      <link href="/2020/01/01/ugui-2-text/"/>
+      <url>/2020/01/01/ugui-2-text/</url>
+      
+        <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Unity </tag>
+            
+            <tag> UGUI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>UGUI之Image学习</title>
+      <link href="/2020/01/01/ugui-3-image/"/>
+      <url>/2020/01/01/ugui-3-image/</url>
+      
+        <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Unity </tag>
+            
+            <tag> UGUI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>UGUI之Raw Image学习</title>
+      <link href="/2020/01/01/ugui-4-raw-image/"/>
+      <url>/2020/01/01/ugui-4-raw-image/</url>
+      
+        <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Unity </tag>
+            
+            <tag> UGUI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>UGUI之Slider学习</title>
+      <link href="/2020/01/01/ugui-7-slider/"/>
+      <url>/2020/01/01/ugui-7-slider/</url>
+      
+        <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Unity </tag>
+            
+            <tag> UGUI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>UGUI之Toggle学习</title>
+      <link href="/2020/01/01/ugui-6-toggle/"/>
+      <url>/2020/01/01/ugui-6-toggle/</url>
+      
+        <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Unity </tag>
+            
+            <tag> UGUI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>UGUI之Button学习</title>
+      <link href="/2020/01/01/ugui-5-button/"/>
+      <url>/2020/01/01/ugui-5-button/</url>
+      
+        <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Unity </tag>
+            
+            <tag> UGUI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>UGUI之Scrollbar学习</title>
+      <link href="/2020/01/01/ugui-8-scrollbar/"/>
+      <url>/2020/01/01/ugui-8-scrollbar/</url>
+      
+        <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Unity </tag>
+            
+            <tag> UGUI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>UGUI之Dropdown学习</title>
+      <link href="/2020/01/01/ugui-9-dropdown/"/>
+      <url>/2020/01/01/ugui-9-dropdown/</url>
+      
+        <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Unity </tag>
+            
+            <tag> UGUI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
