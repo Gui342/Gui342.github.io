@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-08-03T13:00:57.164Z</updated>
+  <updated>2020-08-03T12:57:20.964Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>常用的设计模式之单例模式</title>
+    <link href="http://yoursite.com/2020/01/01/singleton/"/>
+    <id>http://yoursite.com/2020/01/01/singleton/</id>
+    <published>2020-01-01T10:00:00.000Z</published>
+    <updated>2020-08-03T12:57:20.964Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Design Mode" scheme="http://yoursite.com/tags/Design-Mode/"/>
+    
+      <category term="C Sharp" scheme="http://yoursite.com/tags/C-Sharp/"/>
+    
+  </entry>
   
   <entry>
     <title>UnityUGUI认知</title>
@@ -45,6 +72,34 @@
   </entry>
   
   <entry>
+    <title>Unity异步加载进度条实现</title>
+    <link href="http://yoursite.com/2020/01/01/loading/"/>
+    <id>http://yoursite.com/2020/01/01/loading/</id>
+    <published>2020-01-01T10:00:00.000Z</published>
+    <updated>2020-08-03T12:56:58.419Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h3&gt;&lt;p&gt;记录一下学习的笔记和心得。&lt;/p&gt;
+&lt;h4 id=&quot;具体实现&quot;&gt;&lt;a href=&quot;#具体实现&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="C Sharp" scheme="http://yoursite.com/tags/C-Sharp/"/>
+    
+      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
+    
+  </entry>
+  
+  <entry>
     <title>UGUI之Canvas学习</title>
     <link href="http://yoursite.com/2020/01/01/ugui-1-canvas/"/>
     <id>http://yoursite.com/2020/01/01/ugui-1-canvas/</id>
@@ -68,61 +123,6 @@
       <category term="UGUI" scheme="http://yoursite.com/tags/UGUI/"/>
     
       <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>常用的设计模式之单例模式</title>
-    <link href="http://yoursite.com/2020/01/01/singleton/"/>
-    <id>http://yoursite.com/2020/01/01/singleton/</id>
-    <published>2020-01-01T10:00:00.000Z</published>
-    <updated>2020-08-03T12:57:20.964Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="Design Mode" scheme="http://yoursite.com/tags/Design-Mode/"/>
-    
-      <category term="C Sharp" scheme="http://yoursite.com/tags/C-Sharp/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Unity异步加载进度条实现</title>
-    <link href="http://yoursite.com/2020/01/01/loading/"/>
-    <id>http://yoursite.com/2020/01/01/loading/</id>
-    <published>2020-01-01T10:00:00.000Z</published>
-    <updated>2020-08-03T12:56:58.419Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h3&gt;&lt;p&gt;记录一下学习的笔记和心得。&lt;/p&gt;
-&lt;h4 id=&quot;具体实现&quot;&gt;&lt;a href=&quot;#具体实现&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
-    
-      <category term="C Sharp" scheme="http://yoursite.com/tags/C-Sharp/"/>
     
   </entry>
   
@@ -235,33 +235,6 @@
   </entry>
   
   <entry>
-    <title>UGUI之Image学习</title>
-    <link href="http://yoursite.com/2020/01/01/ugui-3-image/"/>
-    <id>http://yoursite.com/2020/01/01/ugui-3-image/</id>
-    <published>2020-01-01T10:00:00.000Z</published>
-    <updated>2020-08-03T13:10:35.483Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;h3 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="UGUI" scheme="http://yoursite.com/tags/UGUI/"/>
-    
-      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
-    
-  </entry>
-  
-  <entry>
     <title>UGUI之Text学习</title>
     <link href="http://yoursite.com/2020/01/01/ugui-2-text/"/>
     <id>http://yoursite.com/2020/01/01/ugui-2-text/</id>
@@ -289,11 +262,11 @@
   </entry>
   
   <entry>
-    <title>UGUI之Button学习</title>
-    <link href="http://yoursite.com/2020/01/01/ugui-5-button/"/>
-    <id>http://yoursite.com/2020/01/01/ugui-5-button/</id>
+    <title>UGUI之Image学习</title>
+    <link href="http://yoursite.com/2020/01/01/ugui-3-image/"/>
+    <id>http://yoursite.com/2020/01/01/ugui-3-image/</id>
     <published>2020-01-01T10:00:00.000Z</published>
-    <updated>2020-08-03T13:21:36.684Z</updated>
+    <updated>2020-08-03T13:10:35.483Z</updated>
     
     <summary type="html">
     
@@ -321,6 +294,33 @@
     <id>http://yoursite.com/2020/01/01/ugui-4-raw-image/</id>
     <published>2020-01-01T10:00:00.000Z</published>
     <updated>2020-08-03T13:10:49.340Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;h3 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="UGUI" scheme="http://yoursite.com/tags/UGUI/"/>
+    
+      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>UGUI之Button学习</title>
+    <link href="http://yoursite.com/2020/01/01/ugui-5-button/"/>
+    <id>http://yoursite.com/2020/01/01/ugui-5-button/</id>
+    <published>2020-01-01T10:00:00.000Z</published>
+    <updated>2020-08-03T13:21:36.684Z</updated>
     
     <summary type="html">
     
